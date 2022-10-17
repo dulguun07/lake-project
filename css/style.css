@@ -1,0 +1,157 @@
+/* Web Fonts ----------------------- */
+
+
+/* Base Styles --------------------- */
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 1.25em; /* 20px on most screens */
+  font-family: 'work sans';
+}
+@font-face {
+  font-family: "minii";
+  src: url("../fonts/abolition-regular-webfont.woff") format("woff");
+}
+img {
+  width: 100%; /* responsive images */
+}
+body{
+  margin: 0;
+}
+header{
+  background: url(../img/mountains.jpg),#ef7823;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 85vh;
+  text-align: center;
+  padding-top: 230px;
+}
+header::after{
+  content:"\2193" ;
+  color: white;
+  font-size: 100px;
+  display: block;
+  font-family: 'Times New Roman', Times, serif
+}
+
+.title{
+  color:white;
+  font-size: 33px;
+
+}
+h1{
+  font-family:'minii';
+  color:white;
+  font-size: 100px;
+  letter-spacing: 3px;
+}
+section{
+  margin:auto;
+  max-width:900px;
+  border-bottom: dashed 1px grey;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.intro{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 130px;
+  max-width: 750px;
+  color: rgb(0, 0, 0);
+}
+
+section .callout{
+  border-radius:  10% ;
+  background: linear-gradient(
+    120deg, white 0% , #fe8c00 35% , #f83600 100%);
+  box-shadow: 1px 2px 2px rgb(143, 143, 143);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 5px 30px;
+}
+#wildlife{
+  background-image: url(../img/bear.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 55vh;
+  text-align: left;
+  margin-bottom: 20px;
+  color: white;
+  padding-top: 180px;
+  padding-left: 150px;
+  margin-top: 80px;
+  box-shadow: inset 6px 6px 10px black , inset -6px -6px 10px black;
+  border-radius: 10px 10px 0 0;
+  border-top: solid 8px rgb(255, 102, 0);
+}
+#wildlife h2{
+  font-family: 'minii';
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+#wildlife p{
+  font-size: 23px;
+}
+#wildlife a{
+  color:orange;
+  text-decoration: none;
+}
+.column{
+  display: inline-block;
+  margin-top: 80px;
+  width: 45%;
+  text-align: left;
+  font-size: 23px;
+}
+.column:first-child{
+  margin-right: 9%;
+}
+.column:last-child{
+margin-left: 2px;
+}
+
+.column img {
+  border-radius: 5px;
+}    
+
+
+
+.column a {
+  text-decoration: none;
+  color:#fe8c00;
+}
+.main-footer a{
+  text-decoration: none;
+  color: #fe8c00;
+}
+.main-footer {
+  display:block;
+  text-align: center;
+}
+footer p { 
+  margin-left:auto; 
+  margin-right: auto;
+}
+
+
+
+
+
+  
+  
+
+
+
+
+
+/* Main Styles --------------------- */
+
+
+/* Media Queries ------------------- */
+
